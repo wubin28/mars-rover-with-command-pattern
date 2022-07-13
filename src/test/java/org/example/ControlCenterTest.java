@@ -39,4 +39,21 @@ class ControlCenterTest {
         assertEquals(0, marsRover.getYCoordinate());
         assertEquals("W", marsRover.getDirection());
     }
+
+    @Test
+    void should_move_to_0_0_E_when_turn_right_from_0_0_N() {
+        // given
+        ControlCenter controlCenter = new ControlCenter();
+        MarsRover marsRover = new MarsRover(0, 0, "N");
+        TurnRightCommand turnRightCommand = new TurnRightCommand(marsRover);
+        controlCenter.storeCommands(turnRightCommand);
+
+        // when
+        controlCenter.performStoredCommands();
+
+        // then
+        assertEquals(0, marsRover.getXCoordinate());
+        assertEquals(0, marsRover.getYCoordinate());
+        assertEquals("E", marsRover.getDirection());
+    }
 }
