@@ -14,14 +14,11 @@ public class MarsRover {
     public void turnLeft() {
         if ("N".equals(this.direction)) {
             this.direction = "W";
-        }
-        if ("W".equals(this.direction)) {
+        } else if ("W".equals(this.direction)) {
             this.direction = "S";
-        }
-        if ("S".equals(this.direction)) {
+        } else if ("S".equals(this.direction)) {
             this.direction = "E";
-        }
-        if ("E".equals(this.direction)) {
+        } else if ("E".equals(this.direction)) {
             this.direction = "N";
         }
     }
@@ -29,14 +26,11 @@ public class MarsRover {
     public void turnRight() {
         if ("N".equals(this.direction)) {
             this.direction = "E";
-        }
-        if ("E".equals(this.direction)) {
+        } else if ("E".equals(this.direction)) {
             this.direction = "S";
-        }
-        if ("S".equals(this.direction)) {
+        } else if ("S".equals(this.direction)) {
             this.direction = "W";
-        }
-        if ("W".equals(this.direction)) {
+        } else if ("W".equals(this.direction)) {
             this.direction = "N";
         }
     }
@@ -44,14 +38,11 @@ public class MarsRover {
     public void move() {
         if ("N".equals(this.direction)) {
             this.yCoordinate++;
-        }
-        if ("E".equals(this.direction)) {
+        } else if ("E".equals(this.direction)) {
             this.xCoordinate++;
-        }
-        if ("S".equals(this.direction)) {
+        } else if ("S".equals(this.direction)) {
             this.yCoordinate--;
-        }
-        if ("W".equals(this.direction)) {
+        } else if ("W".equals(this.direction)) {
             this.xCoordinate--;
         }
     }
