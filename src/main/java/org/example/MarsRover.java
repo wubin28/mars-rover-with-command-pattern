@@ -64,4 +64,16 @@ public class MarsRover {
                 ", direction='" + direction + '\'' +
                 '}';
     }
+
+    public int getXCoordinate() {
+        return this.xCoordinate;
+    }
+
+    public int getYCoordinate() {
+        return this.yCoordinate;
+    }
+
+    public String getDirection() {
+        return this.direction;
+    }
 }
