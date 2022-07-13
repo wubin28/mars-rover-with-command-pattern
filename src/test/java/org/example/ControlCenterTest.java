@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// To check out the Command Pattern, refer to https://www.jianshu.com/p/da8712663542
 // Client
 class ControlCenterTest {
 
