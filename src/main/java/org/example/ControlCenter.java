@@ -1,5 +1,6 @@
 package org.example;
 
+// Invoker
 public class ControlCenter {
     private Command[] commands;
 

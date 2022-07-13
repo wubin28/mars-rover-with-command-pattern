@@ -1,5 +1,6 @@
 package org.example;
 
+// Receiver
 public class MarsRover {
     private int xCoordinate;
     private int yCoordinate;
