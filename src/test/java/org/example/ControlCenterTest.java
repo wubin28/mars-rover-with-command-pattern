@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ControlCenterTest {
 
     @Test
-    void should_move_to_0_1_N_when_move_from_0_0_N() {
+    void should_go_to_0_1_N_When_move_Given_from_0_0_N() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "N");
@@ -26,7 +26,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_W_when_turn_left_from_0_0_N() {
+    void should_go_to_0_0_W_When_turn_left_Given_from_0_0_N() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "N");
@@ -43,7 +43,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_E_when_turn_right_from_0_0_N() {
+    void should_go_to_0_0_E_When_turn_right_Given_from_0_0_N() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "N");
@@ -60,7 +60,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_minus_1_S_when_move_from_0_0_S() {
+    void should_go_to_0_minus_1_S_When_move_Given_from_0_0_S() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "S");
@@ -77,7 +77,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_E_when_turn_left_from_0_0_S() {
+    void should_go_to_0_0_E_When_turn_left_Given_from_0_0_S() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "S");
@@ -94,7 +94,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_W_when_turn_right_from_0_0_S() {
+    void should_go_to_0_0_W_When_turn_right_Given_from_0_0_S() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "S");
@@ -111,7 +111,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_1_0_E_when_move_from_0_0_E() {
+    void should_go_to_1_0_E_When_move_Given_from_0_0_E() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "E");
@@ -128,7 +128,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_N_when_turn_left_from_0_0_E() {
+    void should_go_to_0_0_N_When_turn_left_Given_from_0_0_E() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "E");
@@ -145,7 +145,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_S_when_turn_right_from_0_0_E() {
+    void should_go_to_0_0_S_When_turn_right_Given_from_0_0_E() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "E");
@@ -162,7 +162,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_minus_1_0_W_when_move_from_0_0_W() {
+    void should_go_to_minus_1_0_W_When_move_Given_from_0_0_W() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "W");
@@ -179,7 +179,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_S_when_turn_left_from_0_0_W() {
+    void should_go_to_0_0_S_When_turn_left_Given_from_0_0_W() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "W");
@@ -196,7 +196,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_0_N_when_turn_right_from_0_0_W() {
+    void should_go_to_0_0_N_When_turn_right_Given_from_0_0_W() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "W");
@@ -213,7 +213,7 @@ class ControlCenterTest {
     }
 
     @Test
-    void should_move_to_0_3_N_when_MLRMM_from_0_0_N() {
+    void should_go_to_0_3_N_When_MLRMM_Given_from_0_0_N() {
         // given
         ControlCenter controlCenter = new ControlCenter();
         MarsRover marsRover = new MarsRover(0, 0, "N");
